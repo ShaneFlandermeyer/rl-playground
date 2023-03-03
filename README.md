@@ -11,7 +11,7 @@ A simple repository to help new students get started with RL and Gym/Gymnasium
 pip install poetry
 ```
 
-* In your terminal, change into the directory for this project. For example, in my linux desktop, I installed the project in ```/home/shane/src/```, so I would running
+* In your terminal, change into the directory for this project. For example, in my linux desktop, I installed the project in ```/home/shane/src/```, so I would run
 
 ```[bash]
 cd /home/shane/src/rl-playground/
@@ -21,7 +21,7 @@ cd /home/shane/src/rl-playground/
 
 ```[bash]
 poetry shell
-pip install -e .
+poetry install
 ```
 
 * If the command above runs successfully, you should be ready to start doing reinforcement learning!
